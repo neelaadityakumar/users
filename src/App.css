@@ -1,0 +1,44 @@
+.App {
+  padding: 4rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  outline: none;
+  width: 100%;
+  border: 1px solid grey;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-user {
+  display: flex;
+  align-items: center;
+}
+
+.add-user p {
+  margin-left: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: end;
+}
